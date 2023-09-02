@@ -1,0 +1,2 @@
+# DoBetter
+This is a project regarding spreading awareness about Persons in need. Peoplw with physical disablities, down syndrome,dyslexia,autim,etc go through a lot in thier life so to help them and make thier life easy i created this website which talks about what these disabilites actually are and spread awareness among  people who are oblivious about this. Also a volunteer section if you would life to volunteer in this good cause.
