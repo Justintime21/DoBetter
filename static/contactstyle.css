@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+@import url('https://fonts.cdnfonts.com/css/verdana-pro-cond');
+#contact{
+    font-family: 'Verdana Pro Cond', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 634px;
+   
+    
+}
+#form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 26px;
+    width: 315px;
+    border-radius: 8px;
+    box-shadow: 2px 2px #9c7171;
+    background-color: #ddff99;
+}
+textarea{
+    width: 369px;
+    height: 163px;
+    border-radius: 8px;
+    box-shadow: 2px 2px #9c7171;
+    background-color: #ddff99;
+}
+#email{
+    margin-top: 12px;
+    
+}
+#age{
+    margin-top: 12px;
+    margin-left: 6px;
+}
+#Message{
+    display: flex;
+    margin-top: 23px;
+    margin-left: -43px;
+}
+
+#btn4{
+    height: 29px;
+    width: 68px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#contact::before{
+    content: '';
+    height: 711px;
+    width: 1555px;
+    opacity: 0.77;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    background: url(/static/contact-us-2418235_1280.jpg)no-repeat center center;
+    background-size: cover;
+    margin-left: -19px;
+}
+
+
+
+/* ----------------------------------------------
+*/
+#contactfoot {
+    font-family: 'Verdana Pro Cond', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+    background-color: black;
+    width: 1536px;
+    text-align: center;
+    color: white;
+    height: 36px;
+    opacity: 0.9;
+}

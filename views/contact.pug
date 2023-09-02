@@ -1,0 +1,27 @@
+extend base.pug
+
+block scripts 
+block style 
+    style 
+        include ../static/style.css 
+        include ../static/contactstyle.css
+block content 
+    section#contact 
+        h1 Contact Us 
+        form(action="/contact" method='POST' id='form2')
+            div#name 
+                label(for='name') Name:
+                input(type='text' id='name' name='name' placeholder='Type your Name')
+            div#email 
+                label(for='email') Email:
+                input(type='email' id='email' name='email' placeholder='Type your email')
+            div#age 
+                label(for='num1') Age:
+                input(type='number' id='age' name='age' placeholder='Enter age')
+            div#Message 
+                label(for name='message') Message:
+                textarea(name='message' id='mes' placeholder=' Enter your message' cols='30' row=' 30')
+            button(id='btn4') Submit
+block footer 
+    footer#contactfoot 
+        p  Copyright@2023 Do Better.com | All rights reserved          

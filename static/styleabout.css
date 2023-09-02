@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#aboutus{
+    font-family: 'Verdana Pro Cond', sans-serif;
+    text-align: center;
+    height: 556px;
+}
+#put{
+    
+    height: 29px;
+    width: 152px;
+    margin-left: 595px;
+    margin-top: 74px;
+}
+#about{
+   
+    height: 254px;
+    width: 500px;
+    margin-left: 423px;
+    margin-top: 29px;
+    font-size: 1.6rem;
+}
+#aboutus::before{
+    
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    height: 712px;
+    width: 1555px;
+    opacity: 0.77;
+    background: url(/static/business-3362086_1280.jpg)no-repeat center center;
+    background-size: cover;
+    margin-left: -787px;
+}
+
+/* ------------------------- */
+#aboutfoot {
+    font-family: 'Verdana Pro Cond', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 4px;
+    justify-content: center;
+    background-color: black;
+    width: 1536px;
+    text-align: center;
+    color: white;
+    height: 36px;
+    opacity: 0.9;
+}

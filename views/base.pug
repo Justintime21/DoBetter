@@ -1,0 +1,21 @@
+doctype html 
+html 
+    head 
+        title Do Better
+        block scripts
+        block style 
+    body 
+        nav#navbar 
+            img(src='/static/awareness-4264012_1280.jpg')
+            ul 
+                li #[a(class='navlist' href='/') Home]
+                li #[a(class='navlist' href='#info') Info]
+                li #[a(class='navlist' href='#vol') Volunteer]
+                li #[a(class='navlist' href='/aboutus') About Us]
+                li #[a(class='navlist' href='/contact') Contact Us]
+            form(action='#' id='search')
+                input(type='text' placeholder='Search')
+                button(id='btn1') Submit
+        block content 
+        block footer 
+            
